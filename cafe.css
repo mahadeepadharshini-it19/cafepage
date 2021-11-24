@@ -1,0 +1,327 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    
+  background-image: url("01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: auto;
+    
+    
+}
+.parallax {
+  /* The image used */
+  background-image: url("02.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 {
+  /* The image used */
+ 
+  background-image: url("03.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("04.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navbar .navbar-nav .nav-link:hover {
+    color: lightsalmon;
+    text-align: right;
+    
+   
+  }
+ 
+  .navbar .navbar-nav .nav-link {
+    position: relative;
+    text-align: right;
+   
+    
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: lightsalmon;
+    color: transparent;
+    width: 0%;
+    content: '';
+    height: 3px;
+    opacity: 0.7;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 75%;
+  }
+  .boxDiv
+  {
+    
+       min-height: 175px;
+       min-width: 350px;
+       padding-left: 30px;
+       padding-right: 15px;
+       padding-top: 3px;
+       padding-bottom: 10px;
+       text-align: center;
+      
+       background-color:rgba(0,0,0,0.7);
+       color:white;
+       margin-top: 125px;
+       margin-bottom: 10px;
+       margin-left: 10px;
+       
+       
+    
+  }
+  .boxDiv1
+  {
+    
+       min-height: 175px;
+       min-width: 350px;
+       padding-left: 30px;
+       padding-right: 15px;
+       padding-top: 3px;
+       padding-bottom: 10px;
+       text-align: center;
+       background-color:rgba(0,0,0,0.7);
+       color:white;
+       margin-top: 15px;
+       margin-bottom: 10px;
+       margin-left: 10px;
+       
+       
+    
+  }
+  .boxDiv2
+  {
+    
+    min-height: 30px;
+    min-width: 140px;
+      
+       text-align: center;
+       background-color:rgba(0,0,0,0.7);
+       color:lightsalmon;
+       display: inline-block;
+  font-size: 16px;
+  margin: 6px 4px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+       
+       
+    
+  }
+  
+  .boxDiv3
+  {
+    
+    min-height: 50px;
+    min-width: 140px;
+      
+       text-align: center;
+    
+       background-color: white;
+       color: saddlebrown;
+       display: inline-block;
+  
+  margin: 6px 4px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+       
+       
+    
+  }
+  .boxDiv4
+  {
+    
+    min-height: 450px;
+    min-width: 350px;
+      
+       text-align: center;
+    
+       background-color:#8A624A;
+       color: saddlebrown;
+       display: inline-block;
+  font-size: 16px;
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  border-radius: 5px;
+      
+       
+    
+  }
+
+  .boxDiv5
+  {
+    
+    min-height: 450px;
+    min-width: 350px;
+      
+       text-align: right;
+    
+       background-color:#8A624A;
+       color: saddlebrown;
+       display: inline-block;
+  font-size: 16px;
+  margin-top: -572px;
+  margin-bottom: 100px;
+  margin-left: 700px;
+  
+  
+  border-radius: 5px;
+       
+       
+    
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  .boxDiv6
+  {
+    
+    min-height: 400px;
+    min-width: 400px;
+      
+     
+    background-color: rgba(255,255,255,0.7);
+      
+       display: inline-block;
+  
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 700px;
+  padding-right: 30px;
+  
+  border-radius: 5px;
+       
+       
+    
+  }
+
+  .boxDiv7
+  {
+    
+    min-height: 350px;
+    min-width: 350px;
+      
+       text-align: center;
+    
+      
+       background-color: rgba(255,255,255,0.7);
+       color: saddlebrown;
+       display: inline-block;
+  font-size: 16px;
+  
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 270px;
+  border-radius: 5px;
+       
+       
+    
+  }
+
+  .boxDiv8
+  {
+    
+    min-height: 380px;
+    min-width: 340px;
+      
+       
+    
+       background-color:black;
+       opacity: 0.5;
+       color: saddlebrown;
+       display: inline-block;
+ 
+  
+  margin-top: -580px;
+  margin-bottom: 200px;
+  margin-left: 700px;
+  border-radius: 5px;
+       
+       
+    
+  }
+
+.boxDiv9
+  {
+    
+   min-height: 30px;
+   min-width: 140px;
+   background-color: teal;
+ 
+  margin-top: auto;
+  margin-bottom: 100px;
+  border-radius: 5px; 
+  display: inline-block;
+  font-size: 16px;
+ 
+  margin-left: 700px;
+  }
+
+  .boxDiv10
+  {
+    
+   min-height: 30px;
+   min-width: 170px;
+   background-color: teal;
+ 
+  margin-top: auto;
+  margin-bottom: 100px;
+  border-radius: 5px; 
+  display: inline-block;
+  font-size: 16px;
+   margin-left: 50px;
+   margin-top:20px;
+  
+  }
+.h2{
+ color: cadetblue;
+ font-size: 12px;
+    
+}
+  
+.container1 {
+  display: flex;
+  
+  justify-content: center
+}
